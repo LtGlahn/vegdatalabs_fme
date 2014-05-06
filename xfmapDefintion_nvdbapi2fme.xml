@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<xfMap>
+ <feature-map multi-feature-construction="true">
+    <mapping match="vegObjekt">
+       <feature-type> <literal expr="vegObjekt"/> </feature-type>
+    </mapping>
+ </feature-map>
+ <feature-content-map>
+ 
+	<!-- Generic, beautiful treatment of a dynamic list of properties 
+	 The "Egenskaper" element, that has  1 to N members
+	 
+	 Two sample values to really demonstrate how this mapping works:
+	<egenskap>
+		<definisjon uri="/datakatalog/egenskapstype/1313"/>
+		<enhet kortNavn="m" navn="Meter" id="1"/>
+		<id>1313</id>
+		<navn>Lengde</navn>
+		<verdi>103.0</verdi>
+	</egenskap>
+	<egenskap>
+		<enumVerdi>
+			<id>7304</id>
+			<kortVerdi>VB</kortVerdi>
+			<verdi>Vegbru</verdi>
+		</enumVerdi>
+		<id>1263</id>
+		<navn>Brukategori</navn>
+		<verdi>Vegbru</verdi>
+	</egenskap>
+	Note how the ENUM-specification is redundant, unless you explisitely want to deal with it. 
+	-->
+
+    <mapping match="vegObjekt/egenskaper/egenskap">
+       <attributes>
+          <attribute>
+             <name>   <extract expr="./navn"/> </name>
+             <value>  <extract expr="./verdi"/>  </value>
+          </attribute>      
+       </attributes>
+    </mapping>
+
+	<!-- 
+	Matching some straightforward elements at root level.
+	These all have the <local-name>Value</local-name>  structure
+	--> 
+	 <mapping match="modifisert objektId objektTypeId objektTypeNavn 
+	  sluttDato startDato strekningslengde">
+        <attributes>
+           <attribute>
+              <name>   <matched expr="local-name"/> </name>
+              <value>  <extract expr="."/>  </value>
+           </attribute>       
+        </attributes>
+     </mapping>  
+	
+
+ <!-- Politidistrikt, kommune and region --> 		
+ <mapping match="vegObjekt/lokasjon/politiDistrikt 
+				vegObjekt/lokasjon/region 
+				vegObjekt/lokasjon/kommune">
+       <attributes>
+          <attribute>
+             <name>   <matched expr="local-name"/> </name>
+             <value>  <extract expr="@navn"/>  </value>
+          </attribute>
+       </attributes>
+    </mapping>
+	
+		
+	<!-- Some location attributes are lists --> 
+    <mapping match="vegObjekt/lokasjon/kontraktsomrader/kontraktsomrade 
+					vegObjekt/lokasjon/riksvegruter/riksvegrute">
+       <attributes>
+          <attribute type="list">
+             <name>   <matched expr="local-name"/> </name>
+             <value>  <extract expr="."/>  </value>
+          </attribute>
+       </attributes>
+    </mapping>
+
+	
+	<!-- Hard-wiring elements of the road reference properties --> 
+    <mapping match="vegObjekt/lokasjon/vegReferanser/vegReferanse">
+       <attributes>
+          <attribute type="list">
+             <name>   <literal expr="vegreferanse_fraMeter"/>  </name>
+             <value>  <extract expr="./fraMeter"/>  </value>
+          </attribute>
+          <attribute type="list">
+             <name>   <literal expr="vegreferanse_tilMeter"/>  </name>
+             <value>  <extract expr="./tilMeter"/>  </value>
+          </attribute>
+          <attribute type="list">
+             <name>   <literal expr="vegreferanse_fylke"/>  </name>
+             <value>  <extract expr="./fylke"/>  </value>
+          </attribute>
+          <attribute type="list">
+             <name>   <literal expr="vegreferanse_hp"/>  </name>
+             <value>  <extract expr="./hp"/>  </value>
+          </attribute>
+          <attribute type="list">
+             <name>   <literal expr="vegreferanse_kategori"/>  </name>
+             <value>  <extract expr="./kategori"/>  </value>
+          </attribute>
+          <attribute type="list">
+             <name>   <literal expr="vegreferanse_kommune"/>  </name>
+             <value>  <extract expr="./kommune"/>  </value>
+          </attribute>
+          <attribute type="list">
+             <name>   <literal expr="vegreferanse_nummer"/>  </name>
+             <value>  <extract expr="./nummer"/>  </value>
+          </attribute>
+          <attribute type="list">
+             <name>   <literal expr="vegreferanse_status"/>  </name>
+             <value>  <extract expr="./status"/>  </value>
+          </attribute>
+       </attributes>
+    </mapping>
+	
+	
+	 <!-- RoadLink linear reference --> 		
+ <mapping match="vegObjekt/lokasjon/veglenker/veglenke">
+       <attributes>
+          <attribute type="list">
+             <name>   <literal expr="veglenke_Id"/>  </name>
+             <value>  <extract expr="@id"/>  </value>
+          </attribute>
+          <attribute type="list">
+             <name>   <literal expr="veglenke_til"/>  </name>
+             <value>  <extract expr="@til"/>  </value>
+          </attribute>
+          <attribute type="list">
+             <name>   <literal expr="veglenke_fra"/>  </name>
+             <value>  <extract expr="@fra"/>  </value>
+          </attribute>
+          <attribute type="list">
+             <name>   <literal expr="veglenke_sidepos"/>  </name>
+             <value>  <extract expr="@sidepos"/>  </value>
+          </attribute>
+          <attribute type="list">
+             <name>   <literal expr="veglenke_felt"/>  </name>
+             <value>  <extract expr="@felt"/>  </value>
+          </attribute>
+          <attribute type="list">
+             <name>   <literal expr="veglenke_direction"/>  </name>
+             <value>  <extract expr="@direction"/>  </value>
+          </attribute>
+       </attributes>
+    </mapping>
+
+	
+	<!-- Relationships to other objects (Assosiasjoner) 
+	
+	The most common used realtion is COMPOSITION, with two possibilities
+		 o This object's daughters: (I am composed of ... ) 
+			<relasjon rel="BESTAR_AV" kardinalitet="EN_TIL_MANGE"/>
+			
+			
+		 o This object's "Mother": (I am part of ... ) 
+			<relasjon rel="ER_DEL_AV" kardinalitet="MANGE_TIL_EN"/>
+
+	Norwegian "kardinalitet" == Cardinality. "MANGE" == Many, "TIL" == to, "EN" == One
+	
+	Please note that NVDB formally supports other kinds of associations, but it's rather
+	hard to find valid examples... Implementing support for them is 
+	straightforward, though: Just expose the name of the list in the XMLFeatureReader, in exactly 
+	the samme manner the lists BESTAR_AV{} and ER_DEL_AV{} are exposed... 
+
+	-->
+    <mapping match="vegObjekt/assosiasjoner/assosiasjon/relasjon">
+       <attributes>
+          <attribute type="list">
+             <name>   <extract expr="@rel"/> </name>
+             <value>  <extract expr="@uri"/>  </value>
+          </attribute>
+       </attributes>
+    </mapping>
+
+ 
+<!-- Explisitely giving the features geometry in a separate chain of transformers 
+	(CoordinateSystemSetter+geometryReplacer). It really should be very 
+	straightforward to implement this as part of the standard XMLFeatureReader-process 
+	(at least according to the docs), but right now I can't be bothered to 
+	find out why it doesn't work for me --> 
+	<mapping match="vegObjekt/lokasjon/geometriUtm33"> 
+	    <attributes>
+          <attribute>
+             <name>   <matched expr="local-name"/> </name>
+             <value>  <extract expr="."/>  </value>
+          </attribute>
+       </attributes>	
+    </mapping>
+
+ </feature-content-map>	  	
+</xfMap>
+
+
