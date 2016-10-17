@@ -6,6 +6,10 @@ The presentation should provide valuable clues and hints about how to get starte
 
 Made with FME desktop 2014, seems to work fine in 2015.1.1, too. (Thanks to Ken Bragg @ safe.com for testing).
 
+# nvdbapiv2_simplestExample.fmw 
+
+
+
 
 # FMEWT_simplestExample and FMEWT_apisearch.fmw
 
@@ -17,7 +21,7 @@ Make sure the location of the xfsmap defintion file (*xfmapDefintion_nvdbapi2fme
 In CSV reader, the  path to *attributeNames.csv* must be valid on your file system. Also, make sure the xfsmap defintion file (*xfmapDefintion_nvdbapi2fme.xml*) in the *XMLFeatureReader* transformer matches your local file system. 
 
 
-# FMEWT_recursiveExample.fmw*
+# FMEWT_recursiveExample.fmw
 
 As with **FMEWT_genericExample.fmw**, match the paths to *attributeNames.csv* and *xfsmap* definition file. 
 
