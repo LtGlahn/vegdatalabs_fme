@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.5:1", "", "5 Felles krav til resultatdata", "EARoot/EA5/EA885.htm", "175.png", "1189", "0", "", "Logical diagram0","{BDFD5D11-9FA1-46b3-99A9-710C34119A63}");
+tocTab[tocTab.length] = new Array("0.5:2", "", "«FeatureType» Resultat Data", "EARoot/EA5/EA892.htm", "5.png", "E2251", "0", "", "Class0","{2CD7B36B-304F-4bd7-9737-486FDF752887}");
+tocTab[tocTab.length] = new Array("0.5.1", "1", "Analyser", "EARoot/EA5/EA1/EA896.htm", "4.png", "", "", "{42152439-26EB-4029-974F-97FDA80F7716}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2", "1", "Dokumenter", "EARoot/EA5/EA2/EA927.htm", "4.png", "", "", "{73E2ED8F-25A2-4e2b-B814-FECC925BDAB3}", "Package");
+tocTab[tocTab.length] = new Array("0.5.3", "1", "Modellvisninger", "EARoot/EA5/EA3/EA937.htm", "4.png", "", "", "{89A3D605-93DA-4366-BE0E-BD39CDEAD23E}", "Package");
+tocTab[tocTab.length] = new Array("0.5.4", "1", "Presentasjoner", "EARoot/EA5/EA4/EA959.htm", "4.png", "", "", "{7A4ABC3A-98B3-45ab-AAC0-4BFC4BA262D7}", "Package");
+tocTab[tocTab.length] = new Array("0.5.5", "1", "Resultatdatasett", "EARoot/EA5/EA5/EA978.htm", "4.png", "", "", "{79925F78-105D-4736-8087-CE32D2CE8B67}", "Package");

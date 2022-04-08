@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1", "1", "Felleskrav til alle dokumentasjonstyper", "EARoot/EA1/EA9.htm", "4.png", "", "", "{D20C0BA3-BE8C-4bb4-AAEB-89512B4E6F37}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "Grunnlagsdata", "EARoot/EA2/EA48.htm", "4.png", "", "", "{B6F9FBFF-C9FE-4b9e-B48E-F3221AAA20B1}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "Modeller", "EARoot/EA3/EA86.htm", "4.png", "", "", "{A6604290-AD76-4d22-B9AE-C95EA1F6E2CB}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "Registrering av data", "EARoot/EA4/EA870.htm", "4.png", "", "", "{05380D8F-F483-43ff-97A1-D25C6A23391C}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "1", "Resultatdata", "EARoot/EA5/EA887.htm", "4.png", "", "", "{D3E72A25-0611-4235-81CA-6C4C518E4570}", "Package");

@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.5.4:1", "", "5.4 Felles krav til presentasjoner", "EARoot/EA5/EA4/EA957.htm", "175.png", "1192", "0", "", "Logical diagram0","{6509D159-C8A6-425f-81A5-20023CDB94E0}");
+tocTab[tocTab.length] = new Array("0.5.4:2", "", "«FeatureType» Presentasjoner", "EARoot/EA5/EA4/EA965.htm", "5.png", "E2290", "0", "", "Class0","{970A07DD-4889-4e73-B3DA-B2BC17A5D750}");
+tocTab[tocTab.length] = new Array("0.5.4.1", "1", "15.1 Presentasjonsmodell", "EARoot/EA5/EA4/EA1/EA966.htm", "4.png", "", "", "{B90DEF53-9427-4295-A64F-9CEB7076E60E}", "Package");
+tocTab[tocTab.length] = new Array("0.5.4.2", "1", "15.2 Animasjonsfilm", "EARoot/EA5/EA4/EA2/EA968.htm", "4.png", "", "", "{384CB882-5E7C-4e79-9F89-10E66E580415}", "Package");
+tocTab[tocTab.length] = new Array("0.5.4.3", "1", "15.3 Manipulerte bilder", "EARoot/EA5/EA4/EA3/EA970.htm", "4.png", "", "", "{E4FC1F19-23D1-4c2a-98D4-14A673F20282}", "Package");
+tocTab[tocTab.length] = new Array("0.5.4.4", "1", "15.4 Foto og video", "EARoot/EA5/EA4/EA4/EA972.htm", "4.png", "", "", "{FDDF52C4-6AB4-46a2-96F6-A95C4D4E4DB1}", "Package");
+tocTab[tocTab.length] = new Array("0.5.4.5", "1", "15.5 Prosjektpresentasjoner", "EARoot/EA5/EA4/EA5/EA974.htm", "4.png", "", "", "{6165BC42-1303-4ecd-8919-AFA9E67E2A03}", "Package");

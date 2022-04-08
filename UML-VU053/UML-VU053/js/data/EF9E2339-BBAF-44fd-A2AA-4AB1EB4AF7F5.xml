@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.2.7.2:1", "", "Part_GML", "EARoot/EA3/EA1/EA24/EA1/EA1/EA2/EA7/EA2/EA347.htm", "175.png", "1240", "0", "", "Logical diagram0","{8FC8F75B-D444-4c20-8206-5316DF4AEABA}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.2.7.2:2", "", "«FeatureType» AbstractFeature", "EARoot/EA3/EA1/EA24/EA1/EA1/EA2/EA7/EA2/EA350.htm", "5.png", "E2580", "0", "", "Class0","{79D73B1E-08AA-4376-869C-1C3E61576031}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.2.7.2:3", "", "LineString", "EARoot/EA3/EA1/EA24/EA1/EA1/EA2/EA7/EA2/EA351.htm", "5.png", "E2581", "0", "", "Class0","{85EB4176-4E2E-46d6-A11A-DBC1E41683E0}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.2.7.2:4", "", "Solid", "EARoot/EA3/EA1/EA24/EA1/EA1/EA2/EA7/EA2/EA352.htm", "5.png", "E2579", "0", "", "Class0","{48DB1444-C651-46e2-B9BD-81077ED0AF76}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.2.7.2.1", "1", "Alignment_GML", "EARoot/EA3/EA1/EA24/EA1/EA1/EA2/EA7/EA2/EA1/EA366.htm", "4.png", "", "", "{F2DDDA0A-3F3A-41f2-98B8-4CB1C203D994}", "Package");

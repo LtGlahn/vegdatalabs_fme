@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.4:1", "", "Frostsikringslag Assosiasjoner", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA4/EA242.htm", "175.png", "1225", "0", "", "Logical diagram0","{2F932533-6F39-4d94-9F6D-928834C3F1EA}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.4:2", "", "Frostsikringslag Betingelser", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA4/EA244.htm", "175.png", "1226", "0", "", "Logical diagram0","{53788E8A-DB6C-4e75-82BB-FE8967EB6703}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.4:3", "", "Frostsikringslag Tillatte verdier", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA4/EA246.htm", "175.png", "1224", "0", "", "Logical diagram0","{7D69A283-8F8F-4562-860A-CDDF2ABCBE7E}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.4:4", "", "«featureType» Frostsikringslag", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA4/EA249.htm", "5.png", "E2522", "0", "", "Class0","{729C26AD-1CEC-4ad7-8F4A-05DD60D27187}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.4:5", "", "«codeList» BudsjettFrostsikringslag", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA4/EA250.htm", "5.png", "E2521", "0", "", "Class0","{1C6B2B1A-5738-4db9-AD2E-994E0EDFBC86}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.4:6", "", "«codeList» TypeFrostsikringslag", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA4/EA251.htm", "5.png", "E2523", "0", "", "Class0","{9F3A8FC9-C49C-4bde-B01C-3C8921B9915A}");

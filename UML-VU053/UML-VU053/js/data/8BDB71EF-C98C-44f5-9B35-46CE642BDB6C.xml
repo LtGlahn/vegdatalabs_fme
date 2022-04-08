@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.3.2.2.6.1:1", "", "Bridge", "EARoot/EA3/EA2/EA2/EA6/EA1/EA787.htm", "5.png", "E2377", "0", "", "Class0","{F7F9728D-1CD9-4124-8361-F77F328AD722}");
+tocTab[tocTab.length] = new Array("0.3.2.2.6.1:2", "", "«FeatureType» Building", "EARoot/EA3/EA2/EA2/EA6/EA1/EA788.htm", "5.png", "E2378", "0", "", "Class0","{F86E32A8-35B8-46a2-8E12-0340A9850838}");
+tocTab[tocTab.length] = new Array("0.3.2.2.6.1:3", "", "Drainage", "EARoot/EA3/EA2/EA2/EA6/EA1/EA789.htm", "5.png", "E2374", "0", "", "Class0","{3DA535EC-EE7D-482d-8ABB-1407FBF5CE47}");
+tocTab[tocTab.length] = new Array("0.3.2.2.6.1:4", "", "Environmental", "EARoot/EA3/EA2/EA2/EA6/EA1/EA790.htm", "5.png", "E2373", "0", "", "Class0","{3D92FE95-CDC0-43b4-9C9E-D6FD710081A4}");
+tocTab[tocTab.length] = new Array("0.3.2.2.6.1:5", "", "OtherFacility", "EARoot/EA3/EA2/EA2/EA6/EA1/EA791.htm", "5.png", "E2372", "0", "", "Class0","{289BCC45-2102-4551-924D-A0472B596371}");
+tocTab[tocTab.length] = new Array("0.3.2.2.6.1:6", "", "Tunnel", "EARoot/EA3/EA2/EA2/EA6/EA1/EA792.htm", "5.png", "E2379", "0", "", "Class0","{FD304E75-F4A7-4ff5-9263-0D5337256017}");
+tocTab[tocTab.length] = new Array("0.3.2.2.6.1:7", "", "Wastewater", "EARoot/EA3/EA2/EA2/EA6/EA1/EA793.htm", "5.png", "E2376", "0", "", "Class0","{83234405-F600-4386-81B5-88BABB2A1E4F}");
+tocTab[tocTab.length] = new Array("0.3.2.2.6.1:8", "", "WaterDistribution", "EARoot/EA3/EA2/EA2/EA6/EA1/EA794.htm", "5.png", "E2375", "0", "", "Class0","{72536EDD-DD95-43c4-A8B2-E2FF2915F509}");

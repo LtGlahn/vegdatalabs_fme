@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.5.5:1", "", "5.5 Felles krav til resultatdatasett", "EARoot/EA5/EA5/EA976.htm", "175.png", "1193", "0", "", "Logical diagram0","{7E6205C3-4AEF-4492-BD10-D2EDC6D85930}");
+tocTab[tocTab.length] = new Array("0.5.5:2", "", "«FeatureType» Datasett", "EARoot/EA5/EA5/EA982.htm", "5.png", "E2303", "0", "", "Class0","{03BD90DF-5B08-4a2c-9741-039DE829121F}");
+tocTab[tocTab.length] = new Array("0.5.5.1", "1", "16.1 Stikningsdata", "EARoot/EA5/EA5/EA1/EA983.htm", "4.png", "", "", "{5228E5B1-9A5F-4594-8569-A982C0EBD107}", "Package");
+tocTab[tocTab.length] = new Array("0.5.5.2", "1", "16.2 Maskinstyringsdata", "EARoot/EA5/EA5/EA2/EA985.htm", "4.png", "", "", "{98C0AEAB-2583-4f8f-9A0F-B80EAF198DB4}", "Package");
+tocTab[tocTab.length] = new Array("0.5.5.3", "1", "16.3 NVDB- og FKB-grunnlag", "EARoot/EA5/EA5/EA3/EA987.htm", "4.png", "", "", "{A260FFCE-83AD-42aa-B9DD-80BC45C63B1B}", "Package");

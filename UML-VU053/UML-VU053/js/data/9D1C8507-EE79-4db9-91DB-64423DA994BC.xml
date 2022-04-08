@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.5:1", "", "Filterlag Assosiasjoner", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA5/EA252.htm", "175.png", "1228", "0", "", "Logical diagram0","{3F9F97AE-9E9F-463e-9C81-8F1A328CBF66}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.5:2", "", "Filterlag Betingelser", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA5/EA254.htm", "175.png", "1229", "0", "", "Logical diagram0","{67C57E39-65C9-45aa-A9FC-04E6F988D78A}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.5:3", "", "Filterlag Tillatte verdier", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA5/EA256.htm", "175.png", "1227", "0", "", "Logical diagram0","{25E8008F-93B1-4564-BBD1-55FA267EEE23}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.5:4", "", "«featureType» Filterlag", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA5/EA259.htm", "5.png", "E2524", "0", "", "Class0","{6638FAFC-57A2-412f-928F-20BAF0FEA3F3}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.5:5", "", "«codeList» BudsjettFilterlag", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA5/EA260.htm", "5.png", "E2525", "0", "", "Class0","{79D82705-360B-4bb7-B137-4C07A640E278}");

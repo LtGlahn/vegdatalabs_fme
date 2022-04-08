@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.3:1", "", "Forsterkningslag Assosiasjoner", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA3/EA232.htm", "175.png", "1222", "0", "", "Logical diagram0","{D8D3D7C0-5312-41d3-A025-1BE0EC2C4B4E}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.3:2", "", "Forsterkningslag Betingelser", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA3/EA234.htm", "175.png", "1223", "0", "", "Logical diagram0","{5A7EC583-4FCB-4654-9B3A-3B65A3884874}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.3:3", "", "Forsterkningslag Tillatte verdier", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA3/EA236.htm", "175.png", "1221", "0", "", "Logical diagram0","{E43159FE-D7FA-4c96-9704-4543D439F0ED}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.3:4", "", "«featureType» Forsterkningslag", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA3/EA239.htm", "5.png", "E2519", "0", "", "Class0","{77675124-029A-4dcd-B0BB-81207E1C3FD0}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.3:5", "", "«codeList» BudsjettForsterkningslag", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA3/EA240.htm", "5.png", "E2520", "0", "", "Class0","{944F50FA-15DE-4145-995D-66A531C2FD54}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.3:6", "", "«codeList» TypeForsterkningslag", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA3/EA241.htm", "5.png", "E2518", "0", "", "Class0","{01075921-66BC-4682-A705-7F8A7099DA1B}");

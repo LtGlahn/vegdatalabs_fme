@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.5.2:1", "", "5.6 Felles krav til dokumenter", "EARoot/EA5/EA2/EA925.htm", "175.png", "1194", "0", "", "Logical diagram0","{75E9C913-1D0E-4111-977F-2E75FBE4DB69}");
+tocTab[tocTab.length] = new Array("0.5.2:2", "", "«FeatureType» Dokumenter", "EARoot/EA5/EA2/EA930.htm", "5.png", "E2313", "0", "", "Class0","{40EFEC9D-3223-4b7e-B316-3728159A3375}");
+tocTab[tocTab.length] = new Array("0.5.2.1", "1", "17.1 Tegninger", "EARoot/EA5/EA2/EA1/EA931.htm", "4.png", "", "", "{1B3A3982-45EE-46c1-BA41-5507055E86C5}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.2", "1", "17.2 Rapporter", "EARoot/EA5/EA2/EA2/EA933.htm", "4.png", "", "", "{73F8D31D-8D66-4e05-B805-0C269CA35701}", "Package");

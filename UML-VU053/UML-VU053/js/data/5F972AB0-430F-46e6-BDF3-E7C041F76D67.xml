@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.2.2:1", "", "2.5.2 Grunnlagsdata registrert av vegprosjekt", "EARoot/EA2/EA2/EA74.htm", "175.png", "1188", "0", "", "Logical diagram0","{E5C2F92E-AE1E-43b5-8B87-E232BBC080C7}");
+tocTab[tocTab.length] = new Array("0.2.2:2", "", "«FeatureType» Befaring", "EARoot/EA2/EA2/EA78.htm", "5.png", "E2231", "0", "", "Class0","{32BDEB31-E7D7-40c6-8767-5B24E6562EFE}");
+tocTab[tocTab.length] = new Array("0.2.2:3", "", "«FeatureType» Geologisk Kartlegging", "EARoot/EA2/EA2/EA79.htm", "5.png", "E2229", "0", "", "Class0","{19CEB8EC-A6B1-4543-AAD8-5A3C3163667F}");
+tocTab[tocTab.length] = new Array("0.2.2:4", "", "«FeatureType» Inspeksjon", "EARoot/EA2/EA2/EA80.htm", "5.png", "E2237", "0", "", "Class0","{EF5EAE66-5E3E-4862-842E-53B010BC1E64}");
+tocTab[tocTab.length] = new Array("0.2.2:5", "", "«FeatureType» Landmåling", "EARoot/EA2/EA2/EA81.htm", "5.png", "E2234", "0", "", "Class0","{B041EC91-34BF-4279-BB31-7CF4A4024549}");
+tocTab[tocTab.length] = new Array("0.2.2:6", "", "«FeatureType» Målinger", "EARoot/EA2/EA2/EA82.htm", "5.png", "E2230", "0", "", "Class0","{2D9BC86F-09D9-4e89-8979-4D12C6D33116}");
+tocTab[tocTab.length] = new Array("0.2.2:7", "", "«FeatureType» Registrering i byggefassen", "EARoot/EA2/EA2/EA83.htm", "5.png", "E2232", "0", "", "Class0","{567574C2-9AD1-4cb8-9E6A-FF612D335987}");
+tocTab[tocTab.length] = new Array("0.2.2:8", "", "«FeatureType» RegistreringerGrunnlagsdata", "EARoot/EA2/EA2/EA84.htm", "5.png", "E2235", "0", "", "Class0","{B74879C6-496C-489e-A68B-D900CEE546AE}");
+tocTab[tocTab.length] = new Array("0.2.2:9", "", "«FeatureType» Skanning", "EARoot/EA2/EA2/EA85.htm", "5.png", "E2236", "0", "", "Class0","{CD9B5729-00FF-448d-BF9C-7BEEC2CFC0AE}");

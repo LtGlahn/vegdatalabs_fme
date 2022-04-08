@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>1 Felleskrav til alle dokumenter</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA8.png" usemap="#EA8" border="0" />
+
+<MAP NAME="EA8">
+<area shape="rect" coords="244,386,345,770" href="./EA2/EA33.htm" target="_self">
+<area shape="rect" coords="810,280,910,417" href="./EA2/EA36.htm" target="_self">
+<area shape="rect" coords="810,447,954,727" href="./EA2/EA38.htm" target="_self">
+<area shape="rect" coords="304,181,429,251" href="EA17.htm" target="_self">
+<area shape="rect" coords="343,91,443,161" href="EA18.htm" target="_self">
+<area shape="rect" coords="611,447,752,545" href="./EA1/EA27.htm" target="_self">
+<area shape="rect" coords="612,280,752,365" href="./EA1/EA26.htm" target="_self">
+<area shape="rect" coords="28,188,203,338" href="./EA2/EA37.htm" target="_self">
+<area shape="rect" coords="244,269,429,354" href="EA19.htm" target="_self">
+<area shape="rect" coords="10,745,136,851" href="EA12.htm" target="_self">
+<area shape="rect" coords="28,487,147,572" href="EA14.htm" target="_self">
+<area shape="rect" coords="10,642,166,727" href="EA13.htm" target="_self">
+<area shape="rect" coords="28,374,134,462" href="EA20.htm" target="_self">
+<area shape="rect" coords="28,91,304,161" href="EA15.htm" target="_self">
+<area shape="rect" coords="587,10,776,202" href="EA21.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">1 Felleskrav til alle dokumenter : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">08.11.2021 12:00:40</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">16.12.2021 09:53:03</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">romslo</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{BAC5293C-29D6-4848-BDFA-2C28BB4D3018}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

@@ -1,0 +1,16 @@
+tocTab[tocTab.length] = new Array("0.1.2:1", "", "Types and Codelists", "EARoot/EA1/EA2/EA28.htm", "175.png", "1185", "0", "", "Logical diagram0","{FA58E53C-B488-4bd8-A3EB-87F24BD16679}");
+tocTab[tocTab.length] = new Array("0.1.2:2", "", "«dataType» areal", "EARoot/EA1/EA2/EA31.htm", "5.png", "E2194", "0", "", "Class0","{268291C7-64DB-4812-9005-F7A50BBECB84}");
+tocTab[tocTab.length] = new Array("0.1.2:3", "", "«dataType» curve", "EARoot/EA1/EA2/EA32.htm", "5.png", "E2206", "0", "", "Class0","{F00684FF-E77F-40c2-B738-981FE838F545}");
+tocTab[tocTab.length] = new Array("0.1.2:4", "", "«CodeList» Fagliste", "EARoot/EA1/EA2/EA33.htm", "5.png", "E2198", "0", "", "Class0","{81DB097A-5BEC-4339-A052-579312757C1F}");
+tocTab[tocTab.length] = new Array("0.1.2:5", "", "«featureType» Felleselement", "EARoot/EA1/EA2/EA34.htm", "5.png", "E2197", "0", "", "Class0","{67A7E8E2-0B43-4b03-A992-0A10671A2C65}");
+tocTab[tocTab.length] = new Array("0.1.2:6", "", "«dataType» Identifikasjon", "EARoot/EA1/EA2/EA35.htm", "5.png", "E2196", "0", "", "Class0","{5078DC78-E727-4462-8FAF-C4946BFFA2C3}");
+tocTab[tocTab.length] = new Array("0.1.2:7", "", "«CodeList» Organisasjonsrolleliste", "EARoot/EA1/EA2/EA36.htm", "5.png", "E2203", "0", "", "Class0","{B63CF89D-05AB-4f9c-A2B4-A1F606F1816C}");
+tocTab[tocTab.length] = new Array("0.1.2:8", "", "«CodeList» Prosjektfase", "EARoot/EA1/EA2/EA37.htm", "5.png", "E2208", "0", "", "Class0","{FEC57795-9E78-4629-A871-24C46B01DE30}");
+tocTab[tocTab.length] = new Array("0.1.2:9", "", "«CodeList» Rolleliste", "EARoot/EA1/EA2/EA38.htm", "5.png", "E2204", "0", "", "Class0","{BA4F3046-7911-4318-9272-CE4877A52AAC}");
+tocTab[tocTab.length] = new Array("0.1.2:10", "", "«codeList» Status", "EARoot/EA1/EA2/EA39.htm", "5.png", "E2199", "0", "", "Class0","{934DB9F3-9793-40b5-80CB-2C27E3D32935}");
+tocTab[tocTab.length] = new Array("0.1.2:11", "", "«Enumeration» Enumeration A", "EARoot/EA1/EA2/EA40.htm", "247.png", "E2201", "0", "", "Enumeration0","{A344EC62-5AAF-4aa8-8854-430816E7C93D}");
+tocTab[tocTab.length] = new Array("0.1.2:12", "", "«dataType» Høydereferansesystem", "EARoot/EA1/EA2/EA41.htm", "5.png", "E2200", "0", "", "Class0","{A1F6A920-93CA-4e32-8DB8-AFF0FAFBB8BB}");
+tocTab[tocTab.length] = new Array("0.1.2:13", "", "«codeList» HøydereferansesystemKode", "EARoot/EA1/EA2/EA42.htm", "5.png", "E2207", "0", "", "Class0","{F8D0F3CE-2CCA-4873-AC9A-6BD24C2E235B}");
+tocTab[tocTab.length] = new Array("0.1.2:14", "", "«dataType» IdentifikasjonKomponent", "EARoot/EA1/EA2/EA43.htm", "5.png", "E2202", "0", "", "Class0","{AD795930-0E58-497f-883F-5AB0DFAC2323}");
+tocTab[tocTab.length] = new Array("0.1.2:15", "", "«dataType» Koordinatsystem", "EARoot/EA1/EA2/EA44.htm", "5.png", "E2205", "0", "", "Class0","{CE659C1E-59F0-43b8-BC12-1C599648E706}");
+tocTab[tocTab.length] = new Array("0.1.2:16", "", "«codeList» ReferansesystemKode", "EARoot/EA1/EA2/EA45.htm", "5.png", "E2195", "0", "", "Class0","{2C289032-5A36-47a0-8652-BB799354016C}");

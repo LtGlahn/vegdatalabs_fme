@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.6:1", "", "Fiberduk Assosiasjoner", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA6/EA261.htm", "175.png", "1231", "0", "", "Logical diagram0","{A0380B2A-004E-4120-B5CA-6F4B85A0F7C9}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.6:2", "", "Fiberduk Betingelser", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA6/EA263.htm", "175.png", "1232", "0", "", "Logical diagram0","{BC0ED961-0A3E-4a7c-8387-286A27C15B3E}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.6:3", "", "Fiberduk Tillatte verdier", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA6/EA265.htm", "175.png", "1230", "0", "", "Logical diagram0","{4149EFDC-A692-4932-8B4A-DEDF16AB4CB9}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.6:4", "", "«featureType» Fiberduk", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA6/EA268.htm", "5.png", "E2526", "0", "", "Class0","{7537466B-9DEA-41ca-83E3-DEF2172D4007}");
+tocTab[tocTab.length] = new Array("0.3.1.24.1.1.1.6:5", "", "«codeList» BudsjettFiberduk", "EARoot/EA3/EA1/EA24/EA1/EA1/EA1/EA6/EA269.htm", "5.png", "E2527", "0", "", "Class0","{D0EF8789-25B5-4d34-926D-C23D6B25178A}");

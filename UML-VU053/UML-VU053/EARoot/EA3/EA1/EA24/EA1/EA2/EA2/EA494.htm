@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("", " : "))</script>  : Public   Note</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">07.09.2020 22:13:03</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">07.09.2020 22:21:32</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">erlin</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{1D642289-DC75-47c6-908C-922BD42F4B19}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA456.htm">Nødvendig redigering i XSD-filer fra ShapeChange</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;b&gt;&lt;i&gt;(2020-09-07/Erling Onstein)&lt;/i&gt;&lt;/b&gt;&lt;br/&gt;&lt;b&gt;&lt;i&gt;N&#248;dvendig XSD-redigering for &#229; f&#229; gyldig InfraN:&lt;/i&gt;&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;1) Tas bort fra SOSIVegkropp.xsd:&lt;br/&gt;--------------------------------&lt;br/&gt;#lt;include schemaLocation=&quot;Plassholder_InfraGML.xsd&quot;/#gt;&lt;br/&gt;#lt;include schemaLocation=&quot;Plassholder_NVDB.xsd&quot;/#gt;&lt;br/&gt;#lt;import namespace=&quot;https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/OLFV/V430&quot;/#gt;&lt;br/&gt;&lt;br/&gt;2) Legges til i SOSIVegkropp.xsd, InfraGML_Alignment.xsd og InfraGML_Road.xsd:&lt;br/&gt;-----------------------------------------------------&lt;br/&gt;xmlns:li=&quot;http://www.opengis.net/infragml/core/1.0&quot; &lt;br/&gt;xmlns:lilf=&quot;http://www.opengis.net/infragml/landfeature/1.0&quot; &lt;br/&gt;xmlns:lif=&quot;http://www.opengis.net/infragml/facility/1.0&quot; &lt;br/&gt;xmlns:lia=&quot;http://www.opengis.net/infragml/alignment/1.0&quot;&lt;br/&gt;xmlns:lifr=&quot;http://www.opengis.net/infragml/road/1.0&quot; &lt;br/&gt;&lt;br/&gt;#lt;import namespace=&quot;http://www.opengis.net/infragml/core/1.0&quot; schemaLocation=&quot;http://schemas.opengis.net/infragml/part0/1.0/core.xsd&quot;/#gt;&lt;br/&gt;#lt;import namespace=&quot;http://www.opengis.net/infragml/landfeature/1.0&quot; schemaLocation=&quot;http://schemas.opengis.net/infragml/part1/1.0/land-feature.xsd&quot;/#gt;&lt;br/&gt;#lt;import namespace=&quot;http://www.opengis.net/infragml/facility/1.0&quot; schemaLocation=&quot;http://schemas.opengis.net/infragml/part2/1.0/facility.xsd&quot;/#gt;&lt;br/&gt;#lt;import namespace=&quot;http://www.opengis.net/infragml/alignment/1.0&quot; schemaLocation=&quot;http://schemas.opengis.net/infragml/part3/1.0/alignment.xsd&quot;/#gt; &lt;br/&gt;#lt;import namespace=&quot;http://www.opengis.net/infragml/road/1.0&quot; schemaLocation=&quot;http://schemas.opengis.net/infragml/part4/1.0/road.xsd&quot;/#gt;&lt;br/&gt;#lt;import namespace=&quot;https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/OLFV/V430&quot; schemaLocation=&quot;https://raw.githubusercontent.com/jetgeo/NVDBGML/master/XSD/OLFV/V430/OLFV.xsd&quot;/#gt;&lt;br/&gt;&lt;br/&gt;3) SOSIVegkropp&#160;&#160;(to steder som ikke gir feilmelding i xsd-validering) for &#229; identifisere skikkelig Solid/overflate-geometri:&lt;br/&gt;-----------------------------------------------------------------------------------------------------------------------------------------------------&lt;br/&gt;	#lt;complexType name=&quot;VolumobjektType&quot;#gt;&lt;br/&gt;		#lt;complexContent#gt;&lt;br/&gt;			#lt;extension base=&quot;infraN:SpatialRepresentationNType&quot;#gt;&lt;br/&gt;				#lt;sequence#gt;&lt;br/&gt;					#lt;element name=&quot;geometry&quot;#gt;&lt;br/&gt;						#lt;complexType#gt;&lt;br/&gt;							#lt;complexContent#gt;&lt;br/&gt;								#lt;extension base=&quot;gml:AbstractMemberType&quot;#gt;&lt;br/&gt;&lt;br/&gt;								&lt;b&gt;#lt;!--&#160;&#160;&#160;Redigeres til &#229; bli slik:&#160;&#160;--#gt;&lt;/b&gt;&lt;br/&gt;&lt;b&gt;								#lt;choice maxOccurs=&quot;1&quot;#gt;&lt;/b&gt;&lt;br/&gt;&lt;b&gt;										#lt;element ref=&quot;gml:Solid&quot;/#gt;&lt;/b&gt;&lt;br/&gt;&lt;b&gt;										#lt;element ref=&quot;li:PolyfaceMesh&quot;/#gt;&lt;/b&gt;&lt;br/&gt;&lt;b&gt;									#lt;/choice#gt;&lt;/b&gt;&lt;br/&gt;									#lt;!-- #lt;sequence minOccurs=&quot;0&quot;#gt;&lt;br/&gt;										#lt;element ref=&quot;infraN:Solid&quot;/#gt;&lt;br/&gt;									#lt;/sequence#gt; --#gt;&lt;br/&gt;&lt;br/&gt;								#lt;!--&#160;&#160;&#160;Redigering slutt&#160;&#160;--#gt;&lt;br/&gt;&lt;br/&gt;									#lt;attributeGroup ref=&quot;gml:AssociationAttributeGroup&quot;/#gt;&lt;br/&gt;								#lt;/extension#gt;&lt;br/&gt;							#lt;/complexContent#gt;&lt;br/&gt;						#lt;/complexType#gt;&lt;br/&gt;					#lt;/element#gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;#lt;complexType name=&quot;ToppOverflateType&quot;#gt;&lt;br/&gt;		#lt;complexContent#gt;&lt;br/&gt;			#lt;extension base=&quot;infraN:SpatialRepresentationNType&quot;#gt;&lt;br/&gt;				#lt;sequence#gt;&lt;br/&gt;					#lt;element name=&quot;geometry&quot;#gt;&lt;br/&gt;						#lt;complexType#gt;&lt;br/&gt;							#lt;complexContent#gt;&lt;br/&gt;								#lt;extension base=&quot;gml:AbstractMemberType&quot;#gt;&lt;br/&gt;								&lt;b&gt;	#lt;!--&#160;&#160;&#160;Redigeres til &#229; bli slik:&#160;&#160;--#gt;&lt;/b&gt;&lt;br/&gt;&lt;b&gt;									#lt;choice maxOccurs=&quot;1&quot;#gt;&lt;/b&gt;&lt;br/&gt;&lt;b&gt;										#lt;element ref=&quot;lifr:Surface&quot;/#gt;&lt;/b&gt;&lt;br/&gt;&lt;b&gt;										#lt;element ref=&quot;li:PolyfaceMesh&quot;/#gt;&lt;/b&gt;&lt;br/&gt;&lt;b&gt;									#lt;/choice#gt;&lt;/b&gt;&lt;br/&gt;&lt;b&gt;									#lt;!--&#160;&#160;&#160;Redigering slutt&#160;&#160;--#gt;&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;									#lt;attributeGroup ref=&quot;gml:AssociationAttributeGroup&quot;/#gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;4) InfraGML_RoadN-redigering (for &#229; kompensere ShapeChange-feil-utlegging?):&lt;br/&gt;-----------------&lt;br/&gt;#lt;element name=&quot;ID&quot; type=&quot;li:IDType&quot;/#gt;&lt;br/&gt;#lt;!-- #lt;element ref=&quot;li:ID&quot;/#gt; --#gt;&lt;br/&gt;</div>
+
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

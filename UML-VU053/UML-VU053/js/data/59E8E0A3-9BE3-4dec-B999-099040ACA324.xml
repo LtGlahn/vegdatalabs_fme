@@ -1,0 +1,14 @@
+tocTab[tocTab.length] = new Array("0.2.1:1", "", "2.5.1 Eksisterende grunnlagsdata", "EARoot/EA2/EA1/EA54.htm", "175.png", "1187", "0", "", "Logical diagram0","{93E79054-C633-4705-BCB6-A08FE7531FDC}");
+tocTab[tocTab.length] = new Array("0.2.1:2", "", "«FeatureType» Dybdedata - rådata", "EARoot/EA2/EA1/EA57.htm", "5.png", "E2223", "0", "", "Class0","{D2A36A44-E984-4de2-96C5-B7E4A0775380}");
+tocTab[tocTab.length] = new Array("0.2.1:3", "", "«FeatureType» Dybdedata - terrengmodeller 5 meters grid", "EARoot/EA2/EA1/EA58.htm", "5.png", "E2222", "0", "", "Class0","{C2FCFCA5-380D-4a16-8871-54EF3645ABCB}");
+tocTab[tocTab.length] = new Array("0.2.1:4", "", "«FeatureType» Dybdekart", "EARoot/EA2/EA1/EA59.htm", "5.png", "E2216", "0", "", "Class0","{169A9353-D80B-42d1-B341-11246A05523B}");
+tocTab[tocTab.length] = new Array("0.2.1:5", "", "«FeatureType» Eksisterende Grunnlagsdata", "EARoot/EA2/EA1/EA60.htm", "5.png", "E2219", "0", "", "Class0","{61A1E538-FCB7-470d-A94A-CCBAE595762A}");
+tocTab[tocTab.length] = new Array("0.2.1:6", "", "«FeatureType» FKB", "EARoot/EA2/EA1/EA61.htm", "5.png", "E2218", "0", "", "Class0","{4B036852-78D2-4604-BE73-0BC062811BFA}");
+tocTab[tocTab.length] = new Array("0.2.1:7", "", "«FeatureType» Høydedata - laser", "EARoot/EA2/EA1/EA63.htm", "5.png", "E2224", "0", "", "Class0","{EC1B1D77-A3A7-4099-95DA-98E98F5436FB}");
+tocTab[tocTab.length] = new Array("0.2.1:8", "", "«FeatureType» N5 Kartdata", "EARoot/EA2/EA1/EA64.htm", "5.png", "E2221", "0", "", "Class0","{A983B1EE-BD22-4442-A98B-F18D5879F053}");
+tocTab[tocTab.length] = new Array("0.2.1:9", "", "«FeatureType» Relevante høydedata for prosjektets geografiske plassering", "EARoot/EA2/EA1/EA66.htm", "5.png", "E2220", "0", "", "Class0","{7184191A-7054-4ac9-92F8-CE88EAE5F412}");
+tocTab[tocTab.length] = new Array("0.2.1:10", "", "«FeatureType» Sjøkart - Dybdedata", "EARoot/EA2/EA1/EA67.htm", "5.png", "E2217", "0", "", "Class0","{3C0768D5-0B5D-4d4d-9C04-79F7B901C719}");
+tocTab[tocTab.length] = new Array("0.2.1.1", "", "Geonorge", "EARoot/EA2/EA1/EA1/EA70.htm", "4.png", "", "", "{4A7C8125-6A0E-4828-BE81-38D8561AB73F}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1.2", "", "Øvrige dataeiere", "EARoot/EA2/EA1/EA2/EA71.htm", "4.png", "", "", "{A68BBEC3-F79D-4147-9742-36E948348B43}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1.3", "", "Statens Vegvesen", "EARoot/EA2/EA1/EA3/EA72.htm", "4.png", "", "", "{D3869AC0-D656-43fd-A202-8C20AB49B5D7}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1.4", "", "Tilgrensende utbyggingsprosjekter", "EARoot/EA2/EA1/EA4/EA73.htm", "4.png", "", "", "{A0978F29-F1EA-4e43-ADAC-44F3B86C55DF}", "Package");

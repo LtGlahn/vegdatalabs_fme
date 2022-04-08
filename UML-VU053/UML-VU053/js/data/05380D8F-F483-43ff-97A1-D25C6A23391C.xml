@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.4.1", "", "Befaring", "EARoot/EA4/EA1/EA878.htm", "4.png", "", "", "{9D0CF43A-DA2B-4ba6-8198-29775796A0D1}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2", "", "Geologisk kartlegging", "EARoot/EA4/EA2/EA879.htm", "4.png", "", "", "{9ED92574-D9F0-49f3-9560-60245534AEE0}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3", "", "Inspeksjoner ", "EARoot/EA4/EA3/EA880.htm", "4.png", "", "", "{922F1593-471A-48c4-ACD2-60B8855C79AB}", "Package");
+tocTab[tocTab.length] = new Array("0.4.4", "", "Landmåling", "EARoot/EA4/EA4/EA881.htm", "4.png", "", "", "{5A5AC9F3-F643-487e-BF9B-15153048215D}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5", "", "Målinger", "EARoot/EA4/EA5/EA882.htm", "4.png", "", "", "{9A9DBB05-8706-43e8-98FA-E0669D912C6D}", "Package");
+tocTab[tocTab.length] = new Array("0.4.6", "", "Registrering i byggefasen", "EARoot/EA4/EA6/EA883.htm", "4.png", "", "", "{291C342E-1A45-4777-AD53-08EB75625659}", "Package");
+tocTab[tocTab.length] = new Array("0.4.7", "", "Skanning", "EARoot/EA4/EA7/EA884.htm", "4.png", "", "", "{F013A92C-2843-4da0-AB90-D5814AAEAA85}", "Package");

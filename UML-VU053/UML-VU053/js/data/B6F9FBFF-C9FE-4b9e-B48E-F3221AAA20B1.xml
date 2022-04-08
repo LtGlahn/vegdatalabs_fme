@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "2 Felles krav grunnlagsdata", "EARoot/EA2/EA46.htm", "175.png", "1186", "0", "", "Logical diagram0","{ADF1737A-66A6-4eac-893B-2CED565E8A93}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "«FeatureType» Grunnlagsdata", "EARoot/EA2/EA51.htm", "5.png", "E2211", "0", "", "Class0","{3EE8570F-C4EF-4c4c-895F-5A98C4A23774}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "«FeatureType» KontrollGrunnlagsdata", "EARoot/EA2/EA53.htm", "5.png", "E2213", "0", "", "Class0","{F5FB122B-9D37-41f8-8478-35FF8F7EB700}");
+tocTab[tocTab.length] = new Array("0.2.1", "1", "Eksisterende grunnlagsdata", "EARoot/EA2/EA1/EA56.htm", "4.png", "", "", "{59E8E0A3-9BE3-4dec-B999-099040ACA324}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2", "1", "Grunnlagsdata registrert av vegprosjekt", "EARoot/EA2/EA2/EA76.htm", "4.png", "", "", "{5F972AB0-430F-46e6-BDF3-E7C041F76D67}", "Package");

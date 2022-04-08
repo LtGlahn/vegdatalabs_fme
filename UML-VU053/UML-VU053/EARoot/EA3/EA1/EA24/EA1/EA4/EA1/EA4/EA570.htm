@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>RoadN</title>
+<link href="../../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA571.png" usemap="#EA571" border="0" />
+
+<MAP NAME="EA571">
+<area shape="rect" coords="577,502,729,604" href="EA586.htm" target="_self">
+<area shape="rect" coords="228,649,414,734" href="EA584.htm" target="_self">
+<area shape="rect" coords="35,234,170,335" href="../../../EA1/EA2/EA6/EA329.htm" target="_self">
+<area shape="rect" coords="10,502,196,587" href="EA578.htm" target="_self">
+<area shape="rect" coords="260,502,375,587" href="EA583.htm" target="_self">
+<area shape="rect" coords="52,16,153,86" href="../../../EA1/EA2/EA7/EA2/EA350.htm" target="_self">
+<area shape="rect" coords="394,215,513,294" href="../../../EA1/EA2/EA6/EA327.htm" target="_self">
+<area shape="rect" coords="585,15,729,88" href="../../../EA1/EA2/EA6/EA328.htm" target="_self">
+<area shape="rect" coords="585,355,729,447" href="EA577.htm" target="_self">
+<area shape="rect" coords="585,167,729,294" href="../../../EA1/EA2/EA6/EA326.htm" target="_self">
+<area shape="rect" coords="228,68,407,156" href="../../../EA1/EA2/EA6/EA325.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">RoadN : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">27.01.2020 10:20:10</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">10.11.2021 09:46:48</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Erling</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{BAA6BE3F-CE8E-43a1-8B33-BFCC9BAF68DD}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>
